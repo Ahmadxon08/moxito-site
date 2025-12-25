@@ -36,8 +36,8 @@ const Hero = () => {
           scrub: true,
         },
       })
-      .to(".right-leaf", { yPercent: 200 }, 0)
-      .to(".left-leaf", { yPercent: -200 }, 0);
+      .to(".right-leaf", { yPercent: 100 }, 0)
+      .to(".left-leaf", { yPercent: -100 }, 0);
 
     const startValue = isMobile ? "top 50%" : "center 60%";
     const endValue = isMobile ? "120% top" : "bottom top";
